@@ -4,6 +4,7 @@
  */
 package test.com.mycompany.ikea;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -24,6 +25,7 @@ import org.testng.annotations.Test;
  */
 public class SignUpTest {
     private WebDriver driver;
+    private WebDriverWait wait;
     public SignUpTest() {
     }
 
@@ -58,7 +60,7 @@ public class SignUpTest {
     driver.get("chrome://newtab/");
     driver.manage().window().maximize();
     driver.get("https://www.ikea.com/us/en/");
-    WebDriverWait wait=new WebDriverWait(driver, 20);  //20 sec
+    wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@id='hnf-header-profile']/a/span"))); 
     
     driver.findElement(By.xpath("//li[@id='hnf-header-profile']/a/span")).click();
