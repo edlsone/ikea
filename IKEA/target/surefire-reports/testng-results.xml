@@ -2,32 +2,32 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T19:31:05Z" name="Surefire suite" finished-at="2024-09-23T19:32:14Z" duration-ms="68291">
+  <suite started-at="2024-09-24T17:17:33Z" name="Surefire suite" finished-at="2024-09-24T17:18:26Z" duration-ms="53224">
     <groups>
     </groups>
-    <test started-at="2024-09-23T19:31:05Z" name="Surefire test" finished-at="2024-09-23T19:32:14Z" duration-ms="68291">
-      <class name="test.com.itexps.CreateProfileTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.CreateProfileTest@5c18298f]" started-at="2024-09-23T15:31:05Z" name="setUpClass" finished-at="2024-09-23T15:31:05Z" duration-ms="14" status="PASS">
+    <test started-at="2024-09-24T17:17:33Z" name="Surefire test" finished-at="2024-09-24T17:18:26Z" duration-ms="53224">
+      <class name="test.com.itexps.SignUpTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.SignUpTest@5c18298f]" started-at="2024-09-24T13:17:33Z" name="setUpClass" finished-at="2024-09-24T13:17:33Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CreateProfileTest@5c18298f]" started-at="2024-09-23T15:31:05Z" name="setUpMethod" finished-at="2024-09-23T15:31:26Z" duration-ms="20669" status="PASS">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.SignUpTest@5c18298f]" started-at="2024-09-24T13:17:33Z" name="setUpMethod" finished-at="2024-09-24T13:17:37Z" duration-ms="3701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testCreateProfileTestCase()[pri:0, instance:test.com.itexps.CreateProfileTest@5c18298f]" started-at="2024-09-23T15:31:26Z" name="testCreateProfileTestCase" finished-at="2024-09-23T15:32:13Z" duration-ms="47290" status="PASS">
+        <test-method signature="testSignUpTestCase()[pri:0, instance:test.com.itexps.SignUpTest@5c18298f]" started-at="2024-09-24T13:17:37Z" name="testSignUpTestCase" finished-at="2024-09-24T13:18:26Z" duration-ms="49502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCreateProfileTestCase -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CreateProfileTest@5c18298f]" started-at="2024-09-23T15:32:13Z" name="tearDownMethod" finished-at="2024-09-23T15:32:13Z" duration-ms="1" status="PASS">
+        </test-method> <!-- testSignUpTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.SignUpTest@5c18298f]" started-at="2024-09-24T13:18:26Z" name="tearDownMethod" finished-at="2024-09-24T13:18:26Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.CreateProfileTest@5c18298f]" started-at="2024-09-23T15:32:13Z" name="tearDownClass" finished-at="2024-09-23T15:32:13Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.SignUpTest@5c18298f]" started-at="2024-09-24T13:18:26Z" name="tearDownClass" finished-at="2024-09-24T13:18:26Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- test.com.itexps.CreateProfileTest -->
+      </class> <!-- test.com.itexps.SignUpTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
