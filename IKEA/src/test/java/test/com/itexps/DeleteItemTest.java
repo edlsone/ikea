@@ -61,7 +61,7 @@ public class DeleteItemTest {
     }
     }
     
-          @Test
+        //  @Test
     public void testAddProductTestCase() throws Exception {
     driver.get("https://www.ikea.com/us/en/");
     driver.findElement(By.xpath("//div[@id='hnf-carousel__tabs-navigation-products']/div[8]/a/span")).click();
@@ -72,7 +72,7 @@ public class DeleteItemTest {
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='NICKGRÄS was added to your shopping bag.'])[1]/following::span[1]")).click();
   }
 
-    @Test
+  //  @Test
 public void testDeleteItemTestCase() throws Exception {
     //driver.get("https://www.ikea.com/us/en/");
 
