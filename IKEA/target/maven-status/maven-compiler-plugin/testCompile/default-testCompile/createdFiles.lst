@@ -1,12 +1,10 @@
-test/com/itexps/LoginTest.class
-test/com/itexps/SignUpTest.class
 test/com/itexps/FindStoreTest.class
+test/com/itexps/ZipLocatorTest.class
 test/com/itexps/SearchTest.class
+test/com/itexps/DeleteItemTest.class
 test/com/itexps/AddFavoritesTest.class
-test/com/itexps/SignUpPojo.class
-test/com/itexps/FileUtil.class
-test/com/itexps/NewEmptyTestNGTest.class
 test/com/itexps/FilterSearchTest.class
 test/com/itexps/AddProductTest.class
+test/com/itexps/GiftCardTest.class
 test/com/itexps/CreateProfileTest.class
 test/com/itexps/ItemNotFoundTest.class

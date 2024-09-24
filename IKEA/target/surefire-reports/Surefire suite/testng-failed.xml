@@ -3,13 +3,15 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="test.com.itexps.CreateProfileTest">
+      <class name="test.com.itexps.DeleteItemTest">
         <methods>
           <include name="setUpMethod"/>
-          <include name="testCreateProfileTestCase"/>
           <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="testDeleteItemTestCase"/>
         </methods>
-      </class> <!-- test.com.itexps.CreateProfileTest -->
+      </class> <!-- test.com.itexps.DeleteItemTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
