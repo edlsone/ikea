@@ -1,33 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T19:44:32Z" name="Surefire suite" finished-at="2024-09-23T19:44:42Z" duration-ms="9725">
+  <suite started-at="2024-09-25T16:18:52Z" name="Surefire suite" finished-at="2024-09-25T16:22:39Z" duration-ms="227192">
     <groups>
     </groups>
-    <test started-at="2024-09-23T19:44:32Z" name="Surefire test" finished-at="2024-09-23T19:44:42Z" duration-ms="9725">
-      <class name="test.com.ScrollBarTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.ScrollBarTest@101df177]" started-at="2024-09-23T14:44:32Z" name="setUpClass" finished-at="2024-09-23T14:44:32Z" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.ScrollBarTest@101df177]" started-at="2024-09-23T14:44:32Z" name="setUpMethod" finished-at="2024-09-23T14:44:33Z" duration-ms="966" status="PASS">
+    <test started-at="2024-09-25T16:18:52Z" name="Surefire test" finished-at="2024-09-25T16:22:39Z" duration-ms="227192">
+      <class name="test.com.itexps.FindStoreTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FindStoreTest@57175e74]" started-at="2024-09-25T11:20:23Z" name="setUpMethod" finished-at="2024-09-25T11:20:24Z" duration-ms="1062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpMethod -->
-        <test-method signature="testScroll()[pri:0, instance:test.com.ScrollBarTest@101df177]" started-at="2024-09-23T14:44:33Z" name="testScroll" finished-at="2024-09-23T14:44:42Z" duration-ms="8747" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.FindStoreTest@57175e74]" started-at="2024-09-25T11:20:23Z" name="setUpClass" finished-at="2024-09-25T11:20:23Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScroll -->
-        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.ScrollBarTest@101df177]" started-at="2024-09-23T14:44:42Z" name="tearDownMethod" finished-at="2024-09-23T14:44:42Z" duration-ms="1" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testFindStoreTestCase()[pri:0, instance:test.com.itexps.FindStoreTest@57175e74]" started-at="2024-09-25T11:20:24Z" name="testFindStoreTestCase" finished-at="2024-09-25T11:20:29Z" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindStoreTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FindStoreTest@57175e74]" started-at="2024-09-25T11:20:29Z" name="tearDownMethod" finished-at="2024-09-25T11:20:29Z" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.ScrollBarTest@101df177]" started-at="2024-09-23T14:44:42Z" name="tearDownClass" finished-at="2024-09-23T14:44:42Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.FindStoreTest@57175e74]" started-at="2024-09-25T11:20:29Z" name="tearDownClass" finished-at="2024-09-25T11:20:29Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- test.com.ScrollBarTest -->
+      </class> <!-- test.com.itexps.FindStoreTest -->
+      <class name="test.com.itexps.AddProductTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.AddProductTest@4206a205]" started-at="2024-09-25T11:19:25Z" name="setUpClass" finished-at="2024-09-25T11:19:25Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.AddProductTest@4206a205]" started-at="2024-09-25T11:19:25Z" name="setUpMethod" finished-at="2024-09-25T11:19:27Z" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAddProductTestCase()[pri:0, instance:test.com.itexps.AddProductTest@4206a205]" started-at="2024-09-25T11:19:27Z" name="testAddProductTestCase" finished-at="2024-09-25T11:19:44Z" duration-ms="17929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.AddProductTest@4206a205]" started-at="2024-09-25T11:19:44Z" name="tearDownMethod" finished-at="2024-09-25T11:19:45Z" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.AddProductTest@4206a205]" started-at="2024-09-25T11:19:45Z" name="tearDownClass" finished-at="2024-09-25T11:19:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.AddProductTest -->
+      <class name="test.com.itexps.myIkeaScrollTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.myIkeaScrollTest@29ba4338]" started-at="2024-09-25T11:22:09Z" name="setUpMethod" finished-at="2024-09-25T11:22:10Z" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.myIkeaScrollTest@29ba4338]" started-at="2024-09-25T11:22:09Z" name="setUpClass" finished-at="2024-09-25T11:22:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testScroll()[pri:0, instance:test.com.itexps.myIkeaScrollTest@29ba4338]" started-at="2024-09-25T11:22:10Z" name="testScroll" finished-at="2024-09-25T11:22:20Z" duration-ms="10300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScroll -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.myIkeaScrollTest@29ba4338]" started-at="2024-09-25T11:22:20Z" name="tearDownMethod" finished-at="2024-09-25T11:22:20Z" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.myIkeaScrollTest@29ba4338]" started-at="2024-09-25T11:22:20Z" name="tearDownClass" finished-at="2024-09-25T11:22:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.myIkeaScrollTest -->
+      <class name="test.com.itexps.ZipLocatorTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.ZipLocatorTest@6279cee3]" started-at="2024-09-25T11:22:32Z" name="setUpMethod" finished-at="2024-09-25T11:22:33Z" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.ZipLocatorTest@6279cee3]" started-at="2024-09-25T11:22:32Z" name="setUpClass" finished-at="2024-09-25T11:22:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testZipLocatorTestCase()[pri:0, instance:test.com.itexps.ZipLocatorTest@6279cee3]" started-at="2024-09-25T11:22:33Z" name="testZipLocatorTestCase" finished-at="2024-09-25T11:22:39Z" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZipLocatorTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.ZipLocatorTest@6279cee3]" started-at="2024-09-25T11:22:39Z" name="tearDownMethod" finished-at="2024-09-25T11:22:39Z" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.ZipLocatorTest@6279cee3]" started-at="2024-09-25T11:22:39Z" name="tearDownClass" finished-at="2024-09-25T11:22:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.ZipLocatorTest -->
+      <class name="test.com.itexps.GiftCardTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.GiftCardTest@1a38c59b]" started-at="2024-09-25T11:20:29Z" name="setUpClass" finished-at="2024-09-25T11:20:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.GiftCardTest@1a38c59b]" started-at="2024-09-25T11:20:29Z" name="setUpMethod" finished-at="2024-09-25T11:20:30Z" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testGiftCardTestCase()[pri:0, instance:test.com.itexps.GiftCardTest@1a38c59b]" started-at="2024-09-25T11:20:30Z" name="testGiftCardTestCase" finished-at="2024-09-25T11:21:11Z" duration-ms="41152" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='4aa831c0-f689-11e9-8d70-e356865c8f6e']/pub-hide-empty-link/div/a/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\corne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60586/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3eb28c32049e3fdc6759dd1cf471e1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='4aa831c0-f689-11e9-8d70-e356865c8f6e']/pub-hide-empty-link/div/a/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\corne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60586/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3eb28c32049e3fdc6759dd1cf471e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at test.com.itexps.GiftCardTest.testGiftCardTestCase(GiftCardTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCardTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.GiftCardTest@1a38c59b]" started-at="2024-09-25T11:21:11Z" name="tearDownMethod" finished-at="2024-09-25T11:21:12Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.GiftCardTest@1a38c59b]" started-at="2024-09-25T11:21:12Z" name="tearDownClass" finished-at="2024-09-25T11:21:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.GiftCardTest -->
+      <class name="test.com.itexps.SearchTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.SearchTest@7f77e91b]" started-at="2024-09-25T11:22:20Z" name="setUpMethod" finished-at="2024-09-25T11:22:21Z" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.SearchTest@7f77e91b]" started-at="2024-09-25T11:22:20Z" name="setUpClass" finished-at="2024-09-25T11:22:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testSearchTestCase()[pri:0, instance:test.com.itexps.SearchTest@7f77e91b]" started-at="2024-09-25T11:22:21Z" name="testSearchTestCase" finished-at="2024-09-25T11:22:32Z" duration-ms="10761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.SearchTest@7f77e91b]" started-at="2024-09-25T11:22:32Z" name="tearDownMethod" finished-at="2024-09-25T11:22:32Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.SearchTest@7f77e91b]" started-at="2024-09-25T11:22:32Z" name="tearDownClass" finished-at="2024-09-25T11:22:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.SearchTest -->
+      <class name="test.com.itexps.AddFavoritesTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.AddFavoritesTest@77e9807f]" started-at="2024-09-25T11:18:52Z" name="setUpClass" finished-at="2024-09-25T11:18:52Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.AddFavoritesTest@77e9807f]" started-at="2024-09-25T11:18:52Z" name="setUpMethod" finished-at="2024-09-25T11:19:00Z" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAddFavoritesTestCase()[pri:0, instance:test.com.itexps.AddFavoritesTest@77e9807f]" started-at="2024-09-25T11:19:00Z" name="testAddFavoritesTestCase" finished-at="2024-09-25T11:19:25Z" duration-ms="24985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddFavoritesTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.AddFavoritesTest@77e9807f]" started-at="2024-09-25T11:19:25Z" name="tearDownMethod" finished-at="2024-09-25T11:19:25Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.AddFavoritesTest@77e9807f]" started-at="2024-09-25T11:19:25Z" name="tearDownClass" finished-at="2024-09-25T11:19:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.AddFavoritesTest -->
+      <class name="test.com.itexps.myIkeaDropdownTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.myIkeaDropdownTest@770c2e6b]" started-at="2024-09-25T11:21:36Z" name="setUpMethod" finished-at="2024-09-25T11:21:37Z" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.myIkeaDropdownTest@770c2e6b]" started-at="2024-09-25T11:21:36Z" name="setUpClass" finished-at="2024-09-25T11:21:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testDropDownTestCase()[pri:0, instance:test.com.itexps.myIkeaDropdownTest@770c2e6b]" started-at="2024-09-25T11:21:37Z" name="testDropDownTestCase" finished-at="2024-09-25T11:21:57Z" duration-ms="20192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropDownTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.myIkeaDropdownTest@770c2e6b]" started-at="2024-09-25T11:21:57Z" name="tearDownMethod" finished-at="2024-09-25T11:22:02Z" duration-ms="5037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.myIkeaDropdownTest@770c2e6b]" started-at="2024-09-25T11:22:02Z" name="tearDownClass" finished-at="2024-09-25T11:22:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.myIkeaDropdownTest -->
+      <class name="test.com.itexps.myIkeaMouseTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.myIkeaMouseTest@7bb58ca3]" started-at="2024-09-25T11:22:02Z" name="setUpMethod" finished-at="2024-09-25T11:22:03Z" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.myIkeaMouseTest@7bb58ca3]" started-at="2024-09-25T11:22:02Z" name="setUpClass" finished-at="2024-09-25T11:22:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testMouseHoverTestCase()[pri:0, instance:test.com.itexps.myIkeaMouseTest@7bb58ca3]" started-at="2024-09-25T11:22:03Z" name="testMouseHoverTestCase" finished-at="2024-09-25T11:22:08Z" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHoverTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.myIkeaMouseTest@7bb58ca3]" started-at="2024-09-25T11:22:08Z" name="tearDownMethod" finished-at="2024-09-25T11:22:09Z" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.myIkeaMouseTest@7bb58ca3]" started-at="2024-09-25T11:22:09Z" name="tearDownClass" finished-at="2024-09-25T11:22:09Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.myIkeaMouseTest -->
+      <class name="test.com.itexps.LoginTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.LoginTest@448ff1a8]" started-at="2024-09-25T11:21:22Z" name="setUpClass" finished-at="2024-09-25T11:21:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.LoginTest@448ff1a8]" started-at="2024-09-25T11:21:22Z" name="setUpMethod" finished-at="2024-09-25T11:21:23Z" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testLoginTestCase()[pri:0, instance:test.com.itexps.LoginTest@448ff1a8]" started-at="2024-09-25T11:21:23Z" name="testLoginTestCase" finished-at="2024-09-25T11:21:35Z" duration-ms="12451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.LoginTest@448ff1a8]" started-at="2024-09-25T11:21:35Z" name="tearDownMethod" finished-at="2024-09-25T11:21:36Z" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.LoginTest@448ff1a8]" started-at="2024-09-25T11:21:36Z" name="tearDownClass" finished-at="2024-09-25T11:21:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.LoginTest -->
+      <class name="test.com.itexps.CreateProfileTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CreateProfileTest@c540f5a]" started-at="2024-09-25T11:19:45Z" name="setUpMethod" finished-at="2024-09-25T11:19:46Z" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.CreateProfileTest@c540f5a]" started-at="2024-09-25T11:19:45Z" name="setUpClass" finished-at="2024-09-25T11:19:45Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testCreateProfileTest()[pri:0, instance:test.com.itexps.CreateProfileTest@c540f5a]" started-at="2024-09-25T11:19:46Z" name="testCreateProfileTest" finished-at="2024-09-25T11:20:10Z" duration-ms="23714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateProfileTest -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CreateProfileTest@c540f5a]" started-at="2024-09-25T11:20:10Z" name="tearDownMethod" finished-at="2024-09-25T11:20:10Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.CreateProfileTest@c540f5a]" started-at="2024-09-25T11:20:10Z" name="tearDownClass" finished-at="2024-09-25T11:20:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.CreateProfileTest -->
+      <class name="test.com.itexps.ItemNotFoundTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.ItemNotFoundTest@4461c7e3]" started-at="2024-09-25T11:21:12Z" name="setUpMethod" finished-at="2024-09-25T11:21:13Z" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.ItemNotFoundTest@4461c7e3]" started-at="2024-09-25T11:21:12Z" name="setUpClass" finished-at="2024-09-25T11:21:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testItemNotFoundTestCase()[pri:0, instance:test.com.itexps.ItemNotFoundTest@4461c7e3]" started-at="2024-09-25T11:21:13Z" name="testItemNotFoundTestCase" finished-at="2024-09-25T11:21:21Z" duration-ms="7978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemNotFoundTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.ItemNotFoundTest@4461c7e3]" started-at="2024-09-25T11:21:21Z" name="tearDownMethod" finished-at="2024-09-25T11:21:22Z" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.ItemNotFoundTest@4461c7e3]" started-at="2024-09-25T11:21:22Z" name="tearDownClass" finished-at="2024-09-25T11:21:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.ItemNotFoundTest -->
+      <class name="test.com.itexps.FilterSearchTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FilterSearchTest@61009542]" started-at="2024-09-25T11:20:10Z" name="setUpMethod" finished-at="2024-09-25T11:20:11Z" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.FilterSearchTest@61009542]" started-at="2024-09-25T11:20:10Z" name="setUpClass" finished-at="2024-09-25T11:20:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testFilterSearchTestCase()[pri:0, instance:test.com.itexps.FilterSearchTest@61009542]" started-at="2024-09-25T11:20:11Z" name="testFilterSearchTestCase" finished-at="2024-09-25T11:20:22Z" duration-ms="11060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterSearchTestCase -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FilterSearchTest@61009542]" started-at="2024-09-25T11:20:22Z" name="tearDownMethod" finished-at="2024-09-25T11:20:23Z" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.FilterSearchTest@61009542]" started-at="2024-09-25T11:20:23Z" name="tearDownClass" finished-at="2024-09-25T11:20:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.FilterSearchTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 23 14:44:32 CDT 2024</td>
+<td>Started on:</td><td>Wed Sep 25 11:18:52 CDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9725 ms)</td>
+<tr><td>Total time:</td><td>227 seconds (227192 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,65 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.com.itexps.GiftCardTest.testGiftCardTestCase()'><b>testGiftCardTestCase</b><br>Test class: test.com.itexps.GiftCardTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id=&apos;4aa831c0-f689-11e9-8d70-e356865c8f6e&apos;]/pub-hide-empty-link/div/a/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\corne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60586/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3eb28c32049e3fdc6759dd1cf471e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at test.com.itexps.GiftCardTest.testGiftCardTestCase(GiftCardTest.java:84)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace730575236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace730575236'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id=&apos;4aa831c0-f689-11e9-8d70-e356865c8f6e&apos;]/pub-hide-empty-link/div/a/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: C:\Users\corne\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60586/devtoo..., se:cdpVersion: 129.0.6668.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b3eb28c32049e3fdc6759dd1cf471e1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at test.com.itexps.GiftCardTest.testGiftCardTestCase(GiftCardTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>41</td>
+<td>test.com.itexps.GiftCardTest@1a38c59b</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +134,65 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.com.ScrollBarTest.testScroll()'><b>testScroll</b><br>Test class: test.com.ScrollBarTest</td>
+<td title='test.com.itexps.AddFavoritesTest.testAddFavoritesTestCase()'><b>testAddFavoritesTestCase</b><br>Test class: test.com.itexps.AddFavoritesTest</td>
 <td></td>
-<td>8</td>
-<td>test.com.ScrollBarTest@101df177</td></tr>
+<td>24</td>
+<td>test.com.itexps.AddFavoritesTest@77e9807f</td></tr>
+<tr>
+<td title='test.com.itexps.AddProductTest.testAddProductTestCase()'><b>testAddProductTestCase</b><br>Test class: test.com.itexps.AddProductTest</td>
+<td></td>
+<td>17</td>
+<td>test.com.itexps.AddProductTest@4206a205</td></tr>
+<tr>
+<td title='test.com.itexps.CreateProfileTest.testCreateProfileTest()'><b>testCreateProfileTest</b><br>Test class: test.com.itexps.CreateProfileTest</td>
+<td></td>
+<td>23</td>
+<td>test.com.itexps.CreateProfileTest@c540f5a</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaDropdownTest.testDropDownTestCase()'><b>testDropDownTestCase</b><br>Test class: test.com.itexps.myIkeaDropdownTest</td>
+<td></td>
+<td>20</td>
+<td>test.com.itexps.myIkeaDropdownTest@770c2e6b</td></tr>
+<tr>
+<td title='test.com.itexps.FilterSearchTest.testFilterSearchTestCase()'><b>testFilterSearchTestCase</b><br>Test class: test.com.itexps.FilterSearchTest</td>
+<td></td>
+<td>11</td>
+<td>test.com.itexps.FilterSearchTest@61009542</td></tr>
+<tr>
+<td title='test.com.itexps.FindStoreTest.testFindStoreTestCase()'><b>testFindStoreTestCase</b><br>Test class: test.com.itexps.FindStoreTest</td>
+<td></td>
+<td>5</td>
+<td>test.com.itexps.FindStoreTest@57175e74</td></tr>
+<tr>
+<td title='test.com.itexps.ItemNotFoundTest.testItemNotFoundTestCase()'><b>testItemNotFoundTestCase</b><br>Test class: test.com.itexps.ItemNotFoundTest</td>
+<td></td>
+<td>7</td>
+<td>test.com.itexps.ItemNotFoundTest@4461c7e3</td></tr>
+<tr>
+<td title='test.com.itexps.LoginTest.testLoginTestCase()'><b>testLoginTestCase</b><br>Test class: test.com.itexps.LoginTest</td>
+<td></td>
+<td>12</td>
+<td>test.com.itexps.LoginTest@448ff1a8</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaMouseTest.testMouseHoverTestCase()'><b>testMouseHoverTestCase</b><br>Test class: test.com.itexps.myIkeaMouseTest</td>
+<td></td>
+<td>5</td>
+<td>test.com.itexps.myIkeaMouseTest@7bb58ca3</td></tr>
+<tr>
+<td title='test.com.itexps.myIkeaScrollTest.testScroll()'><b>testScroll</b><br>Test class: test.com.itexps.myIkeaScrollTest</td>
+<td></td>
+<td>10</td>
+<td>test.com.itexps.myIkeaScrollTest@29ba4338</td></tr>
+<tr>
+<td title='test.com.itexps.SearchTest.testSearchTestCase()'><b>testSearchTestCase</b><br>Test class: test.com.itexps.SearchTest</td>
+<td></td>
+<td>10</td>
+<td>test.com.itexps.SearchTest@7f77e91b</td></tr>
+<tr>
+<td title='test.com.itexps.ZipLocatorTest.testZipLocatorTestCase()'><b>testZipLocatorTestCase</b><br>Test class: test.com.itexps.ZipLocatorTest</td>
+<td></td>
+<td>5</td>
+<td>test.com.itexps.ZipLocatorTest@6279cee3</td></tr>
 </table><p>
 </body>
 </html>
