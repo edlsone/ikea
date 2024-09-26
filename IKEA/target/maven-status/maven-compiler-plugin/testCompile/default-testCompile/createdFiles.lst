@@ -1,1 +1,15 @@
-test\com\ScrollBarTest.class
+test\com\itexps\CreateProfileTest.class
+test\com\itexps\FileUtil.class
+test\com\itexps\ZipLocatorTest.class
+test\com\itexps\AddProductTest.class
+test\com\itexps\FindStoreTest.class
+test\com\itexps\FilterSearchTest.class
+test\com\itexps\myIkeaDropdownTest.class
+test\com\itexps\GiftCardTest.class
+test\com\itexps\AddFavoritesTest.class
+test\com\itexps\LoginTest.class
+test\com\itexps\ItemNotFoundTest.class
+test\com\itexps\CreateProfilePojo.class
+test\com\itexps\SearchTest.class
+test\com\itexps\myIkeaMouseTest.class
+test\com\itexps\myIkeaScrollTest.class
