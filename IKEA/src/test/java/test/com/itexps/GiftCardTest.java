@@ -22,7 +22,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author Ana
+ * @author Ana1
  */
 public class GiftCardTest {
      private WebDriver driver;

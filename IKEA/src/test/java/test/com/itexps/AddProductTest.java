@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author ana
+ * @author ana1
  */
 public class AddProductTest {
     private WebDriver driver;
