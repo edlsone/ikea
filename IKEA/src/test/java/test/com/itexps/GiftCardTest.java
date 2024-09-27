@@ -42,7 +42,6 @@ public class GiftCardTest {
      @BeforeMethod
     public void setUpMethod() throws Exception {
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-        //System.setProperty("webdriver.chrome.driver", "C:\\data\\chromedriver.exe");
         driver = new ChromeDriver(); 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize(); // Maximize the browser window
@@ -115,6 +114,5 @@ public void testGiftCardTestCase() throws Exception {
 }
 
   
-
 
 
