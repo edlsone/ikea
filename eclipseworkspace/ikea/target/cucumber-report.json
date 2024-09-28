@@ -1,0 +1,247 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T02:12:56.598Z",
+        "line": 12,
+        "name": "Verify that IKEA home page URL for \"https://www.ikea.com/us/en/\" language is \"EN\"",
+        "description": "",
+        "id": "test-ikea-home-page-language;verify-that-ikea-home-page-url-for-\"\u003curl\u003e\"-language-is-\"\u003clanguage\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3279548000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is open",
+            "match": {
+              "location": "stepDefinition.IkeaLanguageTest.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2782238000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I naviagate to url \"https://www.ikea.com/us/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.ikea.com/us/en/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.IkeaLanguageTest.i_naviagate_to_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7063295000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify that the IKEA home page language \"EN\" is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EN\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinition.IkeaLanguageTest.i_verify_that_the_ikea_home_page_language_is_correct(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-28T02:13:10.025Z",
+        "line": 13,
+        "name": "Verify that IKEA home page URL for \"https://www.ikea.com/us/es/\" language is \"ES\"",
+        "description": "",
+        "id": "test-ikea-home-page-language;verify-that-ikea-home-page-url-for-\"\u003curl\u003e\"-language-is-\"\u003clanguage\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6629540000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browser is open",
+            "match": {
+              "location": "stepDefinition.IkeaLanguageTest.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9325501000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I naviagate to url \"https://www.ikea.com/us/es/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.ikea.com/us/es/\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.IkeaLanguageTest.i_naviagate_to_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 852072000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify that the IKEA home page language \"ES\" is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ES\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepDefinition.IkeaLanguageTest.i_verify_that_the_ikea_home_page_language_is_correct(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test IKEA home page language",
+    "description": "\tI want to verify that the home page is working in different languages",
+    "id": "test-ikea-home-page-language",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/IkeaLanguage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T02:13:26.934Z",
+        "line": 4,
+        "name": "Add item to bag",
+        "description": "",
+        "id": "shopping-bag-add-item;add-item-to-bag",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12865487000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have added an item to the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagAddItemTest.i_have_added_an_item_to_the_shopping_bag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4287527000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagAddItemTest.i_navigate_to_the_shopping_bag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1409085000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify that the item has been added to the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagAddItemTest.i_verify_that_the_item_has_been_added_to_the_shopping_bag()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Bag Add Item",
+    "description": "  I want to add an item to the shopping bag and  verify it has been added",
+    "id": "shopping-bag-add-item",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ShoppingBagAdd.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-28T02:13:45.538Z",
+        "line": 4,
+        "name": "Delete item from bag",
+        "description": "",
+        "id": "shopping-bag-delete-item;delete-item-from-bag",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13237737000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I  added an item to the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagDeleteItemTest.i_added_an_item_to_the_shopping_bag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16752680000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I delete the item from the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagDeleteItemTest.i_delete_the_item_from_the_shopping_bag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10681273000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the item is removed from the shopping bag",
+            "match": {
+              "location": "stepDefinition.ShoppingBagDeleteItemTest.i_verify_the_item_is_removed_from_the_shopping_bag()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Bag Delete Item",
+    "description": "  I want to delete an item from the shopping bag and  verify it has been deleted",
+    "id": "shopping-bag-delete-item",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ShoppingBagDelete.feature",
+    "tags": []
+  }
+]
