@@ -22,10 +22,6 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>6.10.4</version>
-			<configuration>
-			        <plugin>json</plugin>
-			        <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
-			    </configuration>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
