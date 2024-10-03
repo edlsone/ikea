@@ -9,6 +9,6 @@ Feature: Test IKEA home page language
 
     Examples: 
       | url  | language |
-      | https://www.ikea.com/us/en/ |     EN |
-      | https://www.ikea.com/us/es/ |     ES |
+      | https://www.ikea.com/us/en/ |     English |
+      | https://www.ikea.com/us/es/ |     español |
 	
