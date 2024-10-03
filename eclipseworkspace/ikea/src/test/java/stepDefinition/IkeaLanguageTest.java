@@ -31,7 +31,6 @@ public class IkeaLanguageTest {
 	}
 	@Then("I verify that the IKEA home page language {string} is correct")
 	public void i_verify_that_the_ikea_home_page_language_is_correct(String string) {
-		/html/body/div[1]/div/div/div/div[1]/div/a/span/span
 		Assert.assertEquals(string , driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/div/a/span/span")).getText());
 		//driver.findElement(By.xpath("/html/body/header/div/div/div/ul/li[3]/button/span/span")).getText().equalsIgnoreCase("aa");
 		driver.close();
