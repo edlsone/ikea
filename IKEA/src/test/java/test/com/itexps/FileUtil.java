@@ -20,7 +20,7 @@ public class FileUtil {
     public static SignUpPojo getData() throws Exception {
 
         //read excel file
-        FileInputStream inputStream = new FileInputStream(new File("/Users/edlsone/NetBeansProjects/Data/signup.xlsx"));
+        FileInputStream inputStream = new FileInputStream(new File("/Users/edls/NetBeansProjects/Data/signup.xlsx"));
         Workbook workbook = new XSSFWorkbook(inputStream);
         //getting first worksheet
         Sheet firstSheet = workbook.getSheetAt(0);
